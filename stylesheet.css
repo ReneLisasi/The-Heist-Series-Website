@@ -1,0 +1,68 @@
+body {
+background-image: url("lee1.png"); height:100%; background-position: center;
+background-repeat: no-repeat;; background-size: cover;
+ font-family: arial, sans serif; text-align: center; color: #eeeeee;
+ margin-top:80px; margin-left: auto; margin-right: auto; margin-bottom: auto; background-color: #12376c}
+ 
+ 
+ table { background-color: #ffffff; color: black;
+width:50%; margin: auto;width: 75%;}
+tr { height : 50px; }
+table, th {border : solid #eeeeee;;}
+tr:hover {background-color: #ffc6c4;}
+tr:nth-child(even) {background-color: #eaeaea;}
+
+.alignRight {float: right; color:white; padding:30px}
+.alignCenter {float: center;}
+.pageTitle { padding: 100px; text-align: center}
+
+.header {background-image: url("blueline.png"); width:100%; color: white; position: fixed; overflow:hidden; 
+top:0; height: 80px ; text-align: left; background-color:#12376c}
+
+#headerText {color: white; float: right; padding: 30px; }
+#headerText a{color: white;text-decoration: none;}
+
+#splash {position: relative; text-align: cneter;
+color:white;}
+
+/* All navigation */
+.nav {background-image: url("blueline.png"); right: 0; margin-top: 80px; padding: 10px;
+color: #eeeeee; position: fixed; overflow:hidden; top:0; height:300px; width: 10%; font-weight: bold;
+border-radius: 12px; background-color:#12376c}
+.nav a:hover {display: block; color: #ffc6c4; text-align: right;
+padding: 20px, 20 px;}
+.nav a{color: #eeeeee; text-decoration: none;}
+
+/*All anchors*/
+a{color:#ffbaba; text-decoration: none;}
+
+hr{width:85%; color: #ffc6c4;}
+
+#wrapper {background-image: url("blueline.png"); height:100%; background-position: center;
+background-repeat: no-repeat;; background-size: cover;
+ width: 70%; margin-left: auto; margin-right:auto; background-color:#5793FC;
+ border-radius:10px;}/*light blue #5793FC dark blue #12376c*/
+ 
+ .scheduleImages {width: 25%; height: 25%;}
+.newsImages{ border-radius: 10px; width:50%;}
+.contactImages{width:15%; float:center;}
+.homeImages{width:75%;}
+ul { list-style: ;}
+p {text-align:left;margin-left: 50px; margin-right:50px;}
+
+footer {text-align: center; font-style: italic; ; height: 1em;
+margin-right: 140px;margin-left:140px; margin-bottom: 40px; padding:20px;}
+footer a {color: #eeeeee; text-decoration: none;}
+
+form {
+       padding: 10px; width: 400px;}
+label { float: left;
+	    width: 150px; 
+        clear: left;
+	    text-align: right; 
+	    padding-right: 10px;
+	    margin-top: 10px; }
+input, textarea { margin-top: 10px; 
+                  display: block; border-radius: 8px } 
+#mySubmit { margin-left: 160px; }
+#mySubmit2 {margin-left: 160px}
